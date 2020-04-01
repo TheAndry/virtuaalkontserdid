@@ -158,9 +158,14 @@ a.button:hover {
 .concert {
   background-color: #f7f0f0;
   margin: 20px auto;
-  max-width: 220px;
+  max-width: 230px;
   text-align: center;
   padding: 20px 10px;
+}
+
+.concert img{
+    max-height: 136px;
+    max-width: 139px;
 }
 
 .concert h4 {
