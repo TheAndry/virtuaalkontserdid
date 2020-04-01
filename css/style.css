@@ -209,3 +209,10 @@ footer {
   float: right;
   margin: 10px 40px;
 }
+
+.info-right img{
+    margin: 5px;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 50px;
+}
