@@ -47,52 +47,52 @@
 
   </header>
 
-  <main class="container-fluid">
-    <div class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="img/slide.png" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="img/slide2.png" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="img/slide.png" alt="Third slide">
-        </div>
+  <main class="container page">
+
+    <h3>Sisesta andmed ja kinnita makse</h3>
+
+    <div class="row">
+      <div class="col-md-6 contact">
+        <label for="fname">Eesnimi:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="fname">Perenimi:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="fname">E-mail:</label><br>
+        <input type="email" id="fname" name="fname"><br>
+
+        <label for="fname">Telefon:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <p style="margin-top: 10px;">Soovin koodi</p>
+        <input type="radio" id="email" name="code" value="email">
+        <label for="email" style="margin-right: 30px">e-mailile</label>
+
+        <input type="radio" id="sms" name="code" value="sms">
+        <label for="sms">SMS-iga</label><br>
+
+      </div>
+      <div class="col-md-6">
+
+        <p>Konsert "Jazz 1"</p>
+        <p>Laupäev 20. märts kell 20:00</p>
+
+        <h3>Vali makseviis</h3>
+        <input type="radio" id="pay" name="pay" value="pay">
+        <label for="pay" style="margin-right: 30px">Pangaülekanne</label><br>
+
+        <input type="radio" id="crd" name="pay" value="crd">
+        <label for="crd">Krediitkaart</label><br><br>
+
+        <a class="button" href="#">Tühista</a>
+        <a class="button" href="#">Maksma</a>
       </div>
     </div>
 
-    <div class="row concerts">
-      <div class="col-12 col-sm-6 col-md-3">
-        <div class="concert">
-          <h4>Konsert "Jazz 1"</h4>
-          <img src="img/jazz.png" alt="jazz">
-          <a href="#">Vali</a>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-3">
-        <div class="concert">
-          <h4>Konsert "Jazz 1"</h4>
-          <img src="img/jazz.png" alt="jazz">
-          <a href="#">Vali</a>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-3">
-        <div class="concert">
-          <h4>Konsert "Jazz 1"</h4>
-          <img src="img/jazz.png" alt="jazz">
-          <a href="#">Vali</a>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-3">
-        <div class="concert">
-          <h4>Konsert "Jazz 1"</h4>
-          <img src="img/jazz.png" alt="jazz">
-          <a href="#">Vali</a>
-        </div>
-      </div>
-    </div>
+
   </main>
+
 
   <footer class="container-fluid">
       <a class="info-left" href="#">Kontakt</a>
